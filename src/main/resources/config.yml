@@ -1,0 +1,10 @@
+!!de.lendico.api.properties.Config
+host: https://api.youneedabudget.com
+
+# TODO will be better to store it more secure and/or pass it as env variable
+key:
+  valid: 40a5726cb93e9de54c9280839ad504e6aca40ff55a97bebba81487a95af2ad59
+  invalid: invalidApiKey
+
+budget:
+  uuid: 14e265a4-1b05-4b4a-bab0-1ad4488a0820
