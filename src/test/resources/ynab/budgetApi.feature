@@ -24,4 +24,4 @@ Feature: Get budget of the user
   Scenario: As user I cannot get budget without id
     Given I use valid API key
     When I call get budget endpoint with id null
-    Then I get 405 HTTP error
+    Then I get 400 HTTP error
