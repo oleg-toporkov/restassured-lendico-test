@@ -1,8 +1,8 @@
-### https://my.lendico.de/
+# [Login page](https://my.lendico.de/)
 
-##Bugs:
+## Bugs:
 
-# Nothing happens on UI when login with non-existing account
+### Nothing happens on UI when login with non-existing account
 **Description:**  
 When trying to login to https://my.lendico.de/ with non-existing email nothing happens on UI.  
 Backend returns 401 so missing error on UI only.  
@@ -25,7 +25,7 @@ Login page still displayed with no errors
 
 ---
 
-# Nothing happens on UI when login with incorrect email
+### Nothing happens on UI when login with incorrect email
 **Description:**  
 When trying to login to https://my.lendico.de/ with username that is not valid email nothing happens on UI.  
 Backend returns 405 so missing error on UI only.  
@@ -58,7 +58,7 @@ Error: Network Error vendor.20840f96bcd8aab91267.js:34:28400
 
 ---
 
-##Feature requests
+## Feature requests
 1. Email field should be first validated on UI.  
 For now frontend performs no validation whether user submitted not valid email or even nothing (frontend sends `null`).  
 To provide better experience user should know in advance that he/she provided bad value.  
